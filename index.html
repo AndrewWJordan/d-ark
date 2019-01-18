@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Project D-ark</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Project D-ark</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Hardware name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter hardware name">
+          <small id="emailHelp" class="form-text text-muted">Name that hardware.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Hardware type</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Mainframe</option>
+            <option>Server</option>
+            <option>Load Balancer</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="ip">IP address/Hostname</label>
+          <input type="text" class="form-control" id="ip" aria-describedby="ipHelp" placeholder="Enter IP">
+          <small id="emailHelp" class="form-text text-muted">Enter the IP of the machine if applicable.</small>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Simulate outage</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <p>We are using node <script>document.write(process.versions.node)</script>,
+      Chrome <script>document.write(process.versions.chrome)</script>,
+      and Electron <script>document.write(process.versions.electron)</script>.</p>
+    </div>
+  </body>
+</html>

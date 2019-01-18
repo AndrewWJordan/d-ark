@@ -1,0 +1,25 @@
+{
+  "name": "d-ark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AndrewWJordan/d-ark.git"
+  },
+  "author": "Andrew Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewWJordan/d-ark/issues"
+  },
+  "homepage": "https://github.com/AndrewWJordan/d-ark#readme",
+  "devDependencies": {
+    "electron": "^4.0.1"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
